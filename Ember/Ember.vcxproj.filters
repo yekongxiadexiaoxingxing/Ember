@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="auxiliary">
+      <UniqueIdentifier>{b8b76f55-d0c0-404f-9da8-bef905ef6c6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base">
+      <UniqueIdentifier>{4762df9d-e55b-468b-a4d1-bdac1df80b12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="macro">
+      <UniqueIdentifier>{82e1b4d1-3f9c-4b02-818d-e350a1c00bff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="warper">
+      <UniqueIdentifier>{179ef42e-76ac-49cb-9ac9-570604ba9d3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="serverengine">
+      <UniqueIdentifier>{d046d827-0836-48ee-b35c-4ad100d54c86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="clientengine">
+      <UniqueIdentifier>{2a3514dd-8756-4d1d-af41-c65cc5db6d2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="frame">
+      <UniqueIdentifier>{d12e97f9-6557-4aaa-b91c-eea97f9665ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="frame\log">
+      <UniqueIdentifier>{43539a05-4958-44bc-91f7-ac54ff0a9a2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="frame\file">
+      <UniqueIdentifier>{8c9f2069-b31b-4dc7-bcb8-2ff56bfffeb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="frame\net">
+      <UniqueIdentifier>{cfa8bb39-7944-4141-bebf-458a5e9a7e3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="frame\event">
+      <UniqueIdentifier>{57e23cb0-4344-455e-ade5-f4c4f9832381}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="frame\confing">
+      <UniqueIdentifier>{2c4d92d9-67c9-45d1-ae2b-1d9e44d6aa64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="frame\object">
+      <UniqueIdentifier>{359be15f-73d7-46d1-beef-3546a64e81b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="frame\encrypt">
+      <UniqueIdentifier>{ae519f58-19c1-4335-aeb7-5d94ed9765b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="frame\encode">
+      <UniqueIdentifier>{a257a2f2-a894-43ae-bd7a-8de98d8a6b76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="frame\graphic">
+      <UniqueIdentifier>{81661535-823c-4fd4-86d4-2a926a5472df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="frame\form">
+      <UniqueIdentifier>{4b9e9eb0-0d55-4ae2-bd99-bb6bdf982c0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="frame\timer">
+      <UniqueIdentifier>{a5281e0c-730b-49db-a8db-6f9deeffc3ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="frame\audio">
+      <UniqueIdentifier>{c2e5534b-bb2a-4b8c-95b9-657f0d12f97a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="frame\prototype">
+      <UniqueIdentifier>{de9e8dfc-1ae2-48a2-b64c-ac911aa75abd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="frame\graphic\language">
+      <UniqueIdentifier>{548b6318-9752-41ce-b48b-da19172c0aeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="frame\thread">
+      <UniqueIdentifier>{d11f8f61-9bd3-43da-a69d-9a930e6c776a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="auxiliary\readme.txt">
+      <Filter>auxiliary</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="auxiliary\auxiliary.cpp">
+      <Filter>auxiliary</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="frame\event\event.cpp">
+      <Filter>frame\event</Filter>
+    </ClCompile>
+    <ClCompile Include="frame\object\object.cpp">
+      <Filter>frame\object</Filter>
+    </ClCompile>
+    <ClCompile Include="frame\event\mouse.cpp">
+      <Filter>frame\event</Filter>
+    </ClCompile>
+    <ClCompile Include="warper\thread_wper.cpp">
+      <Filter>warper</Filter>
+    </ClCompile>
+    <ClCompile Include="warper\string_wper.cpp">
+      <Filter>warper</Filter>
+    </ClCompile>
+    <ClCompile Include="frame\log\Log.cpp">
+      <Filter>frame\log</Filter>
+    </ClCompile>
+    <ClCompile Include="frame\thread\thread.cpp">
+      <Filter>frame\thread</Filter>
+    </ClCompile>
+    <ClCompile Include="auxiliary\stream.cpp">
+      <Filter>auxiliary</Filter>
+    </ClCompile>
+    <ClCompile Include="frame\timer\timer.cpp">
+      <Filter>frame\timer</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="auxiliary\auxiliary.h">
+      <Filter>auxiliary</Filter>
+    </ClInclude>
+    <ClInclude Include="macro\macro.h">
+      <Filter>macro</Filter>
+    </ClInclude>
+    <ClInclude Include="auxiliary\counter.h">
+      <Filter>auxiliary</Filter>
+    </ClInclude>
+    <ClInclude Include="frame\event\event.h">
+      <Filter>frame\event</Filter>
+    </ClInclude>
+    <ClInclude Include="frame\object\object.h">
+      <Filter>frame\object</Filter>
+    </ClInclude>
+    <ClInclude Include="frame\event\mouse.h">
+      <Filter>frame\event</Filter>
+    </ClInclude>
+    <ClInclude Include="frame\prototype\prototype.h">
+      <Filter>frame\prototype</Filter>
+    </ClInclude>
+    <ClInclude Include="warper\string_wper.h">
+      <Filter>warper</Filter>
+    </ClInclude>
+    <ClInclude Include="warper\thread_wper.h">
+      <Filter>warper</Filter>
+    </ClInclude>
+    <ClInclude Include="frame\log\Log.h">
+      <Filter>frame\log</Filter>
+    </ClInclude>
+    <ClInclude Include="warper\system_wper.h">
+      <Filter>warper</Filter>
+    </ClInclude>
+    <ClInclude Include="frame\thread\thread.h">
+      <Filter>frame\thread</Filter>
+    </ClInclude>
+    <ClInclude Include="auxiliary\stream.h">
+      <Filter>auxiliary</Filter>
+    </ClInclude>
+    <ClInclude Include="auxiliary\singleton.h">
+      <Filter>auxiliary</Filter>
+    </ClInclude>
+    <ClInclude Include="warper\time_wper.h">
+      <Filter>warper</Filter>
+    </ClInclude>
+    <ClInclude Include="frame\timer\timer.h">
+      <Filter>frame\timer</Filter>
+    </ClInclude>
+    <ClInclude Include="auxiliary\observe.h">
+      <Filter>auxiliary</Filter>
+    </ClInclude>
+    <ClInclude Include="auxiliary\math.h">
+      <Filter>auxiliary</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
